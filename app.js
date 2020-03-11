@@ -1,6 +1,2 @@
-const textInput = document.querySelector('input#text');
-
-textInput.addEventListener('input', e =>{
-    sessionStorage.setItem('text', e.target.value);
-});
-
+document.cookie = 'user=Max;domain=lexkosha.github.io/index.html'
+alert(document.cookie);
