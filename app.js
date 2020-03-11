@@ -1,2 +1,2 @@
-document.cookie = 'user=Max;domain=lexkosha.github.io/index.html'
+document.cookie = 'user=Max;link=google.com'
 alert(document.cookie);
